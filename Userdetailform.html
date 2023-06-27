@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Detail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: 'Poppins', sans-serif;
+
+        }
+        form{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" target="_blank">
+        <fieldset>
+            <legend>User Details!!</legend>
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" name="user name" value="john" readonly disabled>
+            <br>
+            <label for="password">Enter Your Password:</label>
+            <input type="password" id="password" name="user password" autofocus>
+            <br>
+            <label for="email">Enter Your Email:</label>
+            <input type="email" name="user email" id="email" placeholder="a@gmail.com"> 
+            <br>
+            <label for="address">Enter Your Address:</label>
+            <textarea cols="30" rows="10" name="user address" id="address"></textarea>
+            <br>
+            <label for="dob">DOB</label>
+            <input type="datetime-local" id="datetime-local" name="user dobs">
+            <br>
+            Gender:
+            <br>
+            <label for="Male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <br>
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <br>
+            Select Your Favourite Movie:
+            <br>
+            <label for="pathan">Pathan</label>
+            <input type="checkbox" id="pathan" name="pathan">
+            <br>
+            <label for="Robots 2.0">Robots 2.0</label>
+            <input type="checkbox" id="Robots 2.0" name="Robots 2.0">
+            <br>
+            <label for="PS 1">PS 1</label>
+            <input type="checkbox" id="PS 1" name="PS 1">
+            <br>
+            <label for="PS 2">PS 2</label>
+            <input type="checkbox" id="PS 2" name="PS 2">
+            <br>
+            <!-- <label for="File Upload">Upload Documents</label>
+            <input type="file"> -->
+            <!-- <label for="input the color">Input the color</label>
+            <input type="color"> -->
+            <input type="number" min="0" max="5">
+            <input type="submit" id="submitS">
+            <!-- Types of Input forms -->
+            <!-- 1.placeholder 2. value 3. number, min, max, autofocus-->
+        </fieldset>
+    </form>
+</body>
+</html>
